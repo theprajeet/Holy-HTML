@@ -50,7 +50,7 @@
 
 ### **Visual Representation of Rowspan and Colspan**
 
-<img src="Assets/table-span.png.png" alt="row-span and colspan image.png" >
+<img src="Assets/table-span.png" alt="row-span and colspan image.png" >
 
 Here are simple examples to demonstrate the use of **`rowspan`** and **`colspan`** in HTML tables.
 
