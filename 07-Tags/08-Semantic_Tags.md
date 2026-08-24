@@ -2,7 +2,7 @@
 
 **Semantic Tags** are HTML tags that clearly describe the **meaning and purpose of the content** they contain. They make the structure of a web page easier for developers, browsers, and search engines to understand.
 
-<img src="/Assets/semantic_tags.png" alt="html_elements.png" width="350" >
+<img src="/Assets/semantic_tags.png" alt="html_elements.png" width="500" >
 
 Unlike non-semantic tags such as `<div>` and `<span>`, semantic tags indicate what kind of content they hold, improving **readability, accessibility, SEO (Search Engine Optimisation), and code maintenance**.
 
