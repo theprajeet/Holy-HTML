@@ -81,7 +81,7 @@ This layer is responsible for storing, retrieving, updating, and deleting data. 
 
 **Examples:** MySQL, PostgreSQL, MongoDB, Oracle, SQL Server
 
-### **Working of 3-Tier Architecture**
+#### **Working of 3-Tier Architecture**
 
 1. The user interacts with the **Presentation Layer**.
 2. The request is sent to the **Application Layer**.
@@ -92,7 +92,7 @@ This layer is responsible for storing, retrieving, updating, and deleting data. 
 
 ---
 
-# **N-Tier Architecture**
+## **N-Tier Architecture**
 
 An **N-Tier Architecture** is an extension of the 3-Tier Architecture. Here, the application is divided into **multiple layers (N layers)** instead of only three. Each layer is responsible for a specific functionality, making large applications more modular, scalable, secure, and easier to maintain.
 
@@ -122,7 +122,7 @@ The exact number of layers depends on the application’s complexity.
 
 ---
 
-# 4. HTML Tags
+## 4. Tags
 
 ### **HTML Tags**
 
@@ -138,24 +138,24 @@ An HTML tag acts as a container for content or other HTML tags. Tags are words e
 
 They serve as keywords that instruct the web browser on how to format and display the content.
 
-### **Commonly used tags in HTML**
+#### **Commonly used tags in HTML**
 
 Here are some commonly used tags in HTML. These are the only tags used 70% of the time.
 
-### **Document Structure Tags**
+#### **Document Structure Tags**
 
 1. **`<DOCTYPE html>`**: Specifies the document type.
 2. **`<html>`**: Encloses the entire HTML document.
 3. **`<head>`**: Contains meta-information and links to scripts and stylesheets.
 4. **`<body>`**: Contains the content of the web page.
 
-### **Metadata Tags**
+#### **Metadata Tags**
 
 1. **`<title>`**: Sets the title of the web page.
 2. **`<meta>`**: Provides metadata such as character set, author, and viewport settings.
 3. **`<link>`**: Links external resources like stylesheets.
 
-### **Text Formatting Tags**
+#### **Text Formatting Tags**
 
 1. **`<p>`**: Paragraph.
 2. **`<h1>`**, **`<h2>`**, **`<h3>`**, **`<h4>`**, **`<h5>`**, **`<h6>`**: Headings.
@@ -164,20 +164,20 @@ Here are some commonly used tags in HTML. These are the only tags used 70% of th
 5. **`<br>`**: Line break.
 6. **`<hr>`**: Horizontal rule.
 
-### **List Tags**
+#### **List Tags**
 
 1. **`<ul>`**: Unordered list.
 2. **`<ol>`**: Ordered list.
 3. **`<li>`**: List item.
 
-### **Hyperlink and Media Tags**
+#### **Hyperlink and Media Tags**
 
 1. **`<a>`**: Anchor (used for links).
 2. **`<img>`**: Image.
 3. **`<audio>`**: Audio content.
 4. **`<video>`**: Video content.
 
-### **Form Tags**
+#### **Form Tags**
 
 1. **`<form>`**: Form.
 2. **`<input>`**: Input field.
@@ -186,7 +186,7 @@ Here are some commonly used tags in HTML. These are the only tags used 70% of th
 5. **`<select>`**: Dropdown list.
 6. **`<option>`**: Options within a **`<select>`** or **`<datalist>`**.
 
-### **Table Tags**
+#### **Table Tags**
 
 1. **`<table>`**: Table.
 2. **`<tr>`**: Table row.
@@ -196,7 +196,7 @@ Here are some commonly used tags in HTML. These are the only tags used 70% of th
 6. **`<tbody>`**: Table body group.
 7. **`<tfoot>`**: Table footer group.
 
-### **Semantic Tags**
+#### **Semantic Tags**
 
 1. **`<header>`**: Header section.
 2. **`<footer>`**: Footer section.
@@ -205,7 +205,7 @@ Here are some commonly used tags in HTML. These are the only tags used 70% of th
 5. **`<nav>`**: Navigation.
 6. **`<aside>`**: Sidebar content.
 
-## **Paired and Unpaired HTML Tags**
+### **Paired and Unpaired HTML Tags**
 
 Well, that was a really long list. Don't worry, we will study these in detail. In HTML, tags can be broadly categorized into two types:
 
@@ -237,7 +237,7 @@ These are tags that don't require a closing tag. They are self-contained, encaps
 
 ---
 
-# 5. Block Level Element and Inline Element
+## 5. Block Level Elements and Inline Level Elements
 
 HTML elements are broadly classified into **Block-Level Elements** and **Inline Elements** based on how they are displayed on a web page.
 
@@ -264,7 +264,7 @@ This is an inline element. This appears on the same line.
 
 ---
 
-# 6. HTML Attributes
+## 6. Attributes
 
 HTML attributes are used to define the characteristics of an HTML element. They are placed within the element's opening tag and consist of two parts: the **name** and the **value**.
 
@@ -318,7 +318,7 @@ The HTML standard is flexible about the case of attribute names, allowing them t
 
 ---
 
-# 7. Write the basic syntax for the anchor and image tags.
+## 7. Write the basic syntax for the anchor and image tags.
 
 #### **Basic Syntax of Anchor (`<a>`) Tag**
 
@@ -367,13 +367,11 @@ The **Image (`<img>`) tag** is used to display images on a web page. It is an **
 
 ---
 
-# 8. What are table, th, td, tr, cell spacing, cell padding?
+## 8. What are table, th, td, tr, cell spacing, cell padding?
 
 ### HTML Table
 
 A **Table** in HTML is used to organize and display data in the form of **rows and columns**. It is created using the `<table>` tag, while other tags like `<tr>`, `<th>`, and `<td>` are used to define its structure.
-
----
 
 ### **`<table>` Tag**
 
@@ -453,7 +451,7 @@ It is specified using the `cellpadding` attribute of the `<table>` tag.
 
 **Note:** The `cellpadding` attribute is deprecated in HTML5. In modern HTML, CSS (`padding`) is used instead.
 
-### **Example of an HTML Table**
+#### **Example of an HTML Table**
 
 ```html
 <table border="1" cellspacing="5" cellpadding="10">
@@ -483,9 +481,9 @@ It is specified using the `cellpadding` attribute of the `<table>` tag.
 
 ---
 
-# 9. A HTML Table
+## 9. Table
 
-### HTML Code
+HTML Code
 
 ```jsx
 <!DOCTYPE html>
@@ -527,7 +525,7 @@ It is specified using the `cellpadding` attribute of the `<table>` tag.
 </html>
 ```
 
-### Output
+Output
 
 ```jsx
 OUTPUT
@@ -545,7 +543,7 @@ OUTPUT
 
 ---
 
-# 10. A HTML Lists
+## 10. Lists
 
 ### HTML Code
 
@@ -622,13 +620,13 @@ JavaScript
 
 ---
 
-# **11. HTML Media Tags**
+## **11. Media Tags**
 
 HTML provides media tags to display images, play audio, play videos, and embed external content such as web pages or PDF files. The most commonly used media tags are `<img>`, `<audio>`, `<video>`, `<source>`, and `<iframe>`.
 
 The following example demonstrates all of these tags.
 
-### **HTML Code**
+**HTML Code**
 
 ```html
 <!DOCTYPE html>
@@ -663,7 +661,7 @@ The following example demonstrates all of these tags.
 </html>
 ```
 
-### **Output**
+**Output**
 
 ```
 Image
@@ -691,37 +689,15 @@ Embedded Web Page
 +--------------------------------------+
 ```
 
-### **Common Attributes**
-
-### **`<img>`**
-
-`src`, `alt`, `width`, `height`
-
-### **`<audio>`**
-
-`controls`, `autoplay`, `loop`, `muted`
-
-### **`<video>`**
-
-`controls`, `autoplay`, `loop`, `muted`, `width`, `height`, `poster`
-
-### **`<source>`**
-
-`src`, `type`
-
-### **`<iframe>`**
-
-`src`, `width`, `height`, `title`
-
 ---
 
-# 12. HTML Form
+## 12. Form
 
 HTML forms are used to collect user input. The `<form>` tag acts as the container for various input fields such as text boxes, password fields, radio buttons, checkboxes, email fields, date pickers, and buttons.
 
 The following example includes all the requested fields.
 
-### **HTML Code**
+**HTML Code**
 
 ```html
 <!DOCTYPE html>
@@ -775,7 +751,7 @@ The following example includes all the requested fields.
 </html>
 ```
 
-### **Output**
+**Output**
 
 ```
                 Registration Form
@@ -806,7 +782,7 @@ Skills:
 
 ---
 
-# 13. Semantic Tags
+## 13. Semantic Tags
 
 **Semantic Tags** are HTML tags that clearly describe the **meaning and purpose of the content** they contain. They make the structure of a web page easier for developers, browsers, and search engines to understand.
 
@@ -842,7 +818,7 @@ Unlike non-semantic tags such as `<div>` and `<span>`, semantic tags indicate wh
 
 ---
 
-# 14. HTML 5 vs HTML 4
+## 14. HTML 5 vs HTML 4
 
 HTML4 and HTML5 are versions of the HyperText Markup Language used to create web pages. **HTML5** is the latest version and introduces many new features such as semantic elements, multimedia support, improved forms, and better performance, making web development easier and more efficient than HTML4.
 
@@ -861,7 +837,7 @@ HTML4 and HTML5 are versions of the HyperText Markup Language used to create web
 
 ---
 
-# 15. Web Page, Web Server and Website
+## 15. Web Page, Web Server and Website
 
 A **Web Page** is a single HTML document displayed in a browser. A **Website** is a collection of related web pages under a single domain name. A **Web Server** is a software or computer system that stores websites, processes user requests, and delivers web pages to users over the internet.
 
@@ -874,7 +850,7 @@ A **Web Page** is a single HTML document displayed in a browser. A **Website** i
 | Cannot exist independently as a complete website. | Can contain hundreds or thousands of web pages. | Can host one or multiple websites. |
 | Created using HTML, CSS, and JavaScript. | Built using multiple web technologies. | Runs web server software such as Apache, Nginx, or IIS. |
 
-## **Examples**
+#### **Examples**
 
 - **Web Page:** Home Page, About Us Page, Contact Page, Login Page
 - **Website:** Google, Amazon, Wikipedia, Flipkart
